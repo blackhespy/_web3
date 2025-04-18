@@ -49,4 +49,4 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add .
         git commit -m "🤖 Random auto-commit at $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes"
-        git push https://x-access-token:${GH_TOKEN}@github.com/hespire/_web3.git HEAD:main
+        git push https://x-access-token:${GH_TOKEN}@github.com/blackhespy/_web3.git HEAD:main
